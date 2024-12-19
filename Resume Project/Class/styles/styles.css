@@ -1,0 +1,66 @@
+body{
+    background-color:rgb(255, 234, 206);
+    color:rgb(186, 37, 37);
+    font-family:'Times New Roman', Times, serif;
+}
+h2{
+    color:blueviolet;
+}
+.navbar{
+    background-color:rgb(174, 146, 96);
+    padding:10px;
+    display:flex;
+    justify-content: right;
+    align-items:center;
+}
+.navbar a{
+    color:rgb(154, 33, 33);
+    text-decoration:none;
+    padding:10px 15px;
+    font-size: medium;
+}
+.navbar a:hover{
+    background-color:rgb(238, 158, 54);
+    border-radius:5px;
+}
+.box-model{
+    padding: 15px;
+    background-color: rgb(199, 155, 113);
+    border: 5px solid rgb(156, 51, 5);
+    margin: 20px;
+    text-align: center;
+    
+}
+.sidebar{
+background-color:brown;
+width: 150px;
+height: 100%;
+position: fixed;
+top:0px;
+left:0;
+padding: 15px;
+box-sizing: border-box;
+}
+.sidebar ul{
+    list-style:none;
+    padding: 0;
+}
+.sidebar ul li{
+    margin: 15px 0;
+}
+.sidebar ul li a{
+    color:rgb(238, 158, 54);
+    text-decoration: none;
+}
+.sidebar ul li a:hover{
+    text-decoration: underline;
+}
+.maincontent{
+    margin-left: 220px;
+    padding: 20px;
+}
+.tableau {
+    right: 20px;
+    width: 500px;
+    height: 500px;
+}
